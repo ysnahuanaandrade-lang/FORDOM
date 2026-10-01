@@ -1,0 +1,78 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+max-width: 500px;
+margin: 40px auto;
+padding: 0 20px;
+}
+
+label {
+display: block;
+margin-top: 14px;
+font-weight: bold;
+}
+input[type="text"], input[type="email"], input[type="number"], textarea {
+width: 100%;
+padding: 8px;
+margin-top: 4px;
+box-sizing: border-box;
+border:2px solid #cccccc;
+border-radius: 5px;
+
+}
+
+textarea {
+resize: vertical;
+height: 60px;
+}
+.grupo-radio label, .grupo-box label {
+font-weight: normal;
+display: inline-block;
+margin-right: 12px;
+}
+
+.foco {
+      border-color: #d64545 !important;
+
+}
+
+#contador{
+    font-size: 12px;
+    color: #d64545
+}
+
+#mensagem-envio{
+  margin-top: 16px;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+
+}
+#mensagem.sucesso{
+    background-color: rgb (132, 150,150);
+    color: aquamarine;
+    display: block;
+}
+
+#mensagem.falha{
+    background-color: aqua;
+    color: rgb(190,225,255);
+}
+
+button{
+margin-top: 16px;
+padding:10px 18px
+cursur:pointer;
+border: none;
+}
+
+button:haver{
+    background-color: aqua;
+    color: azure;
+}
